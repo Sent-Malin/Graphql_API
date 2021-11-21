@@ -1,0 +1,10 @@
+version: '2.4'
+
+services:
+  postgres:
+    image: postgres:10.7
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=1234567
+    ports:
+      - 7232:5432
